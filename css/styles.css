@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: #ecf0f3;
+}
+
+.login-div {
+    width: 430px;
+    height: 750px;
+    padding: 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #fff;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+
+.fields {
+    width: 100%;
+    padding: 25px 5px 5px 5px;
+}
+
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+
+.username, .password {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 
+        inset 8px 8px 8px #cbced1,
+        inset -4px -4px 8px #fff;
+}
+
+.fields i {
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+
+.signin-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    background: #4461f2;
+    box-shadow: 3px 3px 8px #b1b1b1,
+        -3px -3px 8px #fff;
+    transition: 0.5s;
+}
+
+.signin-button:hover {
+    background: #4461f2;
+}
+
+.signin-button:active {
+    background: #5a72e7;
+}
+
+.link {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+    font-weight: lighter;
+}
