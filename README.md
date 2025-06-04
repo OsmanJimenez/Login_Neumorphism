@@ -64,6 +64,15 @@ Para contribuir:
 
 Este proyecto está bajo la [Licencia MIT](LICENSE), lo que permite su libre uso, modificación y distribución.
 
+## 👤 Autor
+
+**Osman Armando Jiménez Cortés**  
+[Portafolio profesional](https://osmanjimenez.com/)  
+[Perfil de GitHub](https://github.com/OsmanJimenez)
+
+Ingeniero de Sistemas y Desarrollador Full Stack especializado en desarrollo web y aplicaciones móviles.
+
+
 ---
 
 Repositorio en GitHub: [OsmanJimenez/Login\_Neumorphism](https://github.com/OsmanJimenez/Login_Neumorphism)
